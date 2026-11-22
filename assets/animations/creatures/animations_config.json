@@ -1,0 +1,16 @@
+{
+  "skeleton_standard": "Humanoid_Rig_v1",
+  "clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "sword_attack",
+    "heavy_attack",
+    "bow_attack",
+    "magic_cast",
+    "blocking",
+    "taking_damage",
+    "death"
+  ]
+}

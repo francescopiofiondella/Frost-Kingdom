@@ -1,0 +1,2872 @@
+{
+  "project": "LEGENDS OF THE FROST KINGDOM",
+  "engine_target": "Three.js (WebGL / r160+)",
+  "total_assets": 170,
+  "summary_counts": {
+    "weapons": 31,
+    "armor": 28,
+    "npcs": 20,
+    "enemies_creatures_bosses": 30,
+    "environments_items": 11,
+    "textures_pbr": 27,
+    "audio_sfx_music": 13,
+    "effects_ui": 9
+  },
+  "assets": [
+    {
+      "id": "char_player_001",
+      "name": "Nordic Warrior Player Base",
+      "category": "character",
+      "path": "characters/player/warrior_player.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "jump",
+        "attack_light",
+        "attack_heavy",
+        "block",
+        "hit",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "char_npc_merchant_001",
+      "name": "Village Merchant NPC",
+      "category": "npc",
+      "path": "characters/npcs/merchant.glb",
+      "format": "glb",
+      "size_bytes": 1516,
+      "animations": [
+        "idle",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "char_npc_guard_001",
+      "name": "City Guard NPC",
+      "category": "npc",
+      "path": "characters/npcs/guard.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "patrol",
+        "attack"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "char_npc_blacksmith_001",
+      "name": "Blacksmith NPC",
+      "category": "npc",
+      "path": "characters/npcs/blacksmith.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [
+        "idle",
+        "forge"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "char_npc_mage_001",
+      "name": "Court Wizard NPC",
+      "category": "npc",
+      "path": "characters/npcs/mage.glb",
+      "format": "glb",
+      "size_bytes": 1516,
+      "animations": [
+        "idle",
+        "cast"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "enemy_goblin_001",
+      "name": "Frost Goblin",
+      "category": "enemy",
+      "path": "characters/enemies/goblin.glb",
+      "format": "glb",
+      "size_bytes": 1516,
+      "animations": [
+        "idle",
+        "run",
+        "attack",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "enemy_orc_001",
+      "name": "Mountain Orc",
+      "category": "enemy",
+      "path": "characters/enemies/orc.glb",
+      "format": "glb",
+      "size_bytes": 1516,
+      "animations": [
+        "idle",
+        "walk",
+        "heavy_attack",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "boss_dragon_001",
+      "name": "Frost Wyrm Dragon",
+      "category": "boss",
+      "path": "characters/dragons/frost_dragon.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "fly",
+        "breathe_frost",
+        "bite",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "boss_giant_001",
+      "name": "Frost Giant Boss",
+      "category": "boss",
+      "path": "characters/bosses/frost_giant.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "stomp",
+        "club_smash",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "boss_demon_001",
+      "name": "Abyssal Demon Boss",
+      "category": "boss",
+      "path": "characters/bosses/abyssal_demon.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [
+        "idle",
+        "fire_nova",
+        "slash",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "boss_lich_001",
+      "name": "Skeleton King Boss",
+      "category": "boss",
+      "path": "characters/bosses/skeleton_king.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [
+        "idle",
+        "summon",
+        "cleave",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "creat_wolf_001",
+      "name": "Dire Snow Wolf",
+      "category": "creature",
+      "path": "creatures/wolves/dire_wolf.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "run",
+        "bite",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "creat_skeleton_001",
+      "name": "Draugr Skeleton",
+      "category": "creature",
+      "path": "creatures/skeletons/draugr_skeleton.glb",
+      "format": "glb",
+      "size_bytes": 1532,
+      "animations": [
+        "idle",
+        "walk",
+        "attack",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "creat_troll_001",
+      "name": "Ice Troll",
+      "category": "creature",
+      "path": "creatures/trolls/ice_troll.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "charge",
+        "smash",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "creat_spider_001",
+      "name": "Frostbite Giant Spider",
+      "category": "creature",
+      "path": "creatures/monsters/giant_spider.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [
+        "idle",
+        "skitter",
+        "venom_bite",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_house_001",
+      "name": "Nordic Timber House",
+      "category": "environment",
+      "path": "environments/villages/nordic_house.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_castle_001",
+      "name": "Stone Keep Tower",
+      "category": "environment",
+      "path": "environments/castles/stone_tower.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_tree_001",
+      "name": "Snowy Pine Tree",
+      "category": "environment",
+      "path": "environments/forests/snow_pine.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_rock_001",
+      "name": "Granite Boulder",
+      "category": "environment",
+      "path": "environments/terrain/granite_boulder.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_ruin_001",
+      "name": "Ancient Nordic Arch",
+      "category": "environment",
+      "path": "environments/ruins/ancient_arch.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_dungeon_001",
+      "name": "Dungeon Stone Pillar",
+      "category": "environment",
+      "path": "environments/dungeons/dungeon_pillar.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "env_cave_001",
+      "name": "Stalagmite Cluster",
+      "category": "environment",
+      "path": "environments/caves/stalagmite.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "weap_sword_001",
+      "name": "Steel Longsword",
+      "category": "weapon",
+      "path": "weapons/swords/steel_longsword.glb",
+      "format": "glb",
+      "size_bytes": 1532,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "weap_axe_001",
+      "name": "Nordic Battleaxe",
+      "category": "weapon",
+      "path": "weapons/axes/nordic_battleaxe.glb",
+      "format": "glb",
+      "size_bytes": 1532,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "weap_bow_001",
+      "name": "Hunting Longbow",
+      "category": "weapon",
+      "path": "weapons/bows/hunting_bow.glb",
+      "format": "glb",
+      "size_bytes": 1528,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "weap_staff_001",
+      "name": "Frost Mage Staff",
+      "category": "weapon",
+      "path": "weapons/staffs/frost_staff.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "weap_shield_001",
+      "name": "Iron Round Shield",
+      "category": "weapon",
+      "path": "weapons/shields/iron_shield.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "armor_helm_001",
+      "name": "Steel horned Helmet",
+      "category": "armor",
+      "path": "armor/helmets/steel_helmet.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "armor_chest_001",
+      "name": "Iron Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/iron_cuirass.glb",
+      "format": "glb",
+      "size_bytes": 1528,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "armor_gloves_001",
+      "name": "Steel Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/steel_gauntlets.glb",
+      "format": "glb",
+      "size_bytes": 1532,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "armor_boots_001",
+      "name": "Heavy Plate Boots",
+      "category": "armor",
+      "path": "armor/boots/plate_boots.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "item_potion_001",
+      "name": "Health Potion Vial",
+      "category": "item",
+      "path": "items/potions/health_potion.glb",
+      "format": "glb",
+      "size_bytes": 1528,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "item_ore_001",
+      "name": "Iron Ore Chunk",
+      "category": "item",
+      "path": "items/resources/iron_ore.glb",
+      "format": "glb",
+      "size_bytes": 1524,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "item_chest_001",
+      "name": "Ironbound Treasure Chest",
+      "category": "item",
+      "path": "items/treasures/treasure_chest.glb",
+      "format": "glb",
+      "size_bytes": 1528,
+      "animations": [
+        "open",
+        "close"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "item_anvil_001",
+      "name": "Blacksmith Anvil",
+      "category": "item",
+      "path": "items/crafting/anvil.glb",
+      "format": "glb",
+      "size_bytes": 1520,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Proxy_Geometry",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_grass_grass_albedo",
+      "name": "Grass Terrain PBR (grass_albedo.png)",
+      "category": "texture",
+      "path": "textures/terrain/grass_albedo.png",
+      "format": "png",
+      "size_bytes": 212037,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_grass_grass_normal",
+      "name": "Grass Terrain PBR (grass_normal.png)",
+      "category": "texture",
+      "path": "textures/terrain/grass_normal.png",
+      "format": "png",
+      "size_bytes": 740555,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_grass_grass_roughness",
+      "name": "Grass Terrain PBR (grass_roughness.png)",
+      "category": "texture",
+      "path": "textures/terrain/grass_roughness.png",
+      "format": "png",
+      "size_bytes": 146288,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_dirt_dirt_albedo",
+      "name": "Dirt Path PBR (dirt_albedo.png)",
+      "category": "texture",
+      "path": "textures/terrain/dirt_albedo.png",
+      "format": "png",
+      "size_bytes": 221230,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_dirt_dirt_normal",
+      "name": "Dirt Path PBR (dirt_normal.png)",
+      "category": "texture",
+      "path": "textures/terrain/dirt_normal.png",
+      "format": "png",
+      "size_bytes": 750945,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_dirt_dirt_roughness",
+      "name": "Dirt Path PBR (dirt_roughness.png)",
+      "category": "texture",
+      "path": "textures/terrain/dirt_roughness.png",
+      "format": "png",
+      "size_bytes": 152759,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_sand_sand_albedo",
+      "name": "River Sand PBR (sand_albedo.png)",
+      "category": "texture",
+      "path": "textures/terrain/sand_albedo.png",
+      "format": "png",
+      "size_bytes": 196936,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_sand_sand_normal",
+      "name": "River Sand PBR (sand_normal.png)",
+      "category": "texture",
+      "path": "textures/terrain/sand_normal.png",
+      "format": "png",
+      "size_bytes": 719637,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_sand_sand_roughness",
+      "name": "River Sand PBR (sand_roughness.png)",
+      "category": "texture",
+      "path": "textures/terrain/sand_roughness.png",
+      "format": "png",
+      "size_bytes": 137562,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_snow_snow_albedo",
+      "name": "Alpine Snow PBR (snow_albedo.png)",
+      "category": "texture",
+      "path": "textures/snow/snow_albedo.png",
+      "format": "png",
+      "size_bytes": 236428,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_snow_snow_normal",
+      "name": "Alpine Snow PBR (snow_normal.png)",
+      "category": "texture",
+      "path": "textures/snow/snow_normal.png",
+      "format": "png",
+      "size_bytes": 670603,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_snow_snow_roughness",
+      "name": "Alpine Snow PBR (snow_roughness.png)",
+      "category": "texture",
+      "path": "textures/snow/snow_roughness.png",
+      "format": "png",
+      "size_bytes": 119712,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_rock_mountain_rock_albedo",
+      "name": "Mountain Rock PBR (mountain_rock_albedo.png)",
+      "category": "texture",
+      "path": "textures/stone/mountain_rock_albedo.png",
+      "format": "png",
+      "size_bytes": 229081,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_rock_mountain_rock_normal",
+      "name": "Mountain Rock PBR (mountain_rock_normal.png)",
+      "category": "texture",
+      "path": "textures/stone/mountain_rock_normal.png",
+      "format": "png",
+      "size_bytes": 757772,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_rock_mountain_rock_roughness",
+      "name": "Mountain Rock PBR (mountain_rock_roughness.png)",
+      "category": "texture",
+      "path": "textures/stone/mountain_rock_roughness.png",
+      "format": "png",
+      "size_bytes": 158405,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_stone_wall_medieval_stone_albedo",
+      "name": "Medieval Stone Brick PBR (medieval_stone_albedo.png)",
+      "category": "texture",
+      "path": "textures/stone/medieval_stone_albedo.png",
+      "format": "png",
+      "size_bytes": 214263,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_stone_wall_medieval_stone_normal",
+      "name": "Medieval Stone Brick PBR (medieval_stone_normal.png)",
+      "category": "texture",
+      "path": "textures/stone/medieval_stone_normal.png",
+      "format": "png",
+      "size_bytes": 635763,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_stone_wall_medieval_stone_roughness",
+      "name": "Medieval Stone Brick PBR (medieval_stone_roughness.png)",
+      "category": "texture",
+      "path": "textures/stone/medieval_stone_roughness.png",
+      "format": "png",
+      "size_bytes": 115968,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_wood_nordic_wood_albedo",
+      "name": "Nordic Timber Plank PBR (nordic_wood_albedo.png)",
+      "category": "texture",
+      "path": "textures/wood/nordic_wood_albedo.png",
+      "format": "png",
+      "size_bytes": 188607,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_wood_nordic_wood_normal",
+      "name": "Nordic Timber Plank PBR (nordic_wood_normal.png)",
+      "category": "texture",
+      "path": "textures/wood/nordic_wood_normal.png",
+      "format": "png",
+      "size_bytes": 87317,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_wood_nordic_wood_roughness",
+      "name": "Nordic Timber Plank PBR (nordic_wood_roughness.png)",
+      "category": "texture",
+      "path": "textures/wood/nordic_wood_roughness.png",
+      "format": "png",
+      "size_bytes": 12707,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_metal_forged_steel_albedo",
+      "name": "Forged Steel PBR (forged_steel_albedo.png)",
+      "category": "texture",
+      "path": "textures/metal/forged_steel_albedo.png",
+      "format": "png",
+      "size_bytes": 164811,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_metal_forged_steel_normal",
+      "name": "Forged Steel PBR (forged_steel_normal.png)",
+      "category": "texture",
+      "path": "textures/metal/forged_steel_normal.png",
+      "format": "png",
+      "size_bytes": 641277,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_metal_forged_steel_roughness",
+      "name": "Forged Steel PBR (forged_steel_roughness.png)",
+      "category": "texture",
+      "path": "textures/metal/forged_steel_roughness.png",
+      "format": "png",
+      "size_bytes": 111990,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_leaves_forest_leaves_albedo",
+      "name": "Forest Foliage PBR (forest_leaves_albedo.png)",
+      "category": "texture",
+      "path": "textures/vegetation/forest_leaves_albedo.png",
+      "format": "png",
+      "size_bytes": 250519,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_leaves_forest_leaves_normal",
+      "name": "Forest Foliage PBR (forest_leaves_normal.png)",
+      "category": "texture",
+      "path": "textures/vegetation/forest_leaves_normal.png",
+      "format": "png",
+      "size_bytes": 753447,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "tex_leaves_forest_leaves_roughness",
+      "name": "Forest Foliage PBR (forest_leaves_roughness.png)",
+      "category": "texture",
+      "path": "textures/vegetation/forest_leaves_roughness.png",
+      "format": "png",
+      "size_bytes": 154599,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_PBR_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_mus_main",
+      "name": "Main Fantasy Theme Loop",
+      "category": "audio",
+      "path": "audio/music/main_theme.wav",
+      "format": "wav",
+      "size_bytes": 176444,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_mus_explore",
+      "name": "Snowy Peaks Exploration",
+      "category": "audio",
+      "path": "audio/music/exploration.wav",
+      "format": "wav",
+      "size_bytes": 176444,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_mus_combat",
+      "name": "Skirmish Combat Theme",
+      "category": "audio",
+      "path": "audio/music/combat_theme.wav",
+      "format": "wav",
+      "size_bytes": 132344,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_mus_dungeon",
+      "name": "Ancient Crypt Ambience",
+      "category": "audio",
+      "path": "audio/music/dungeon_theme.wav",
+      "format": "wav",
+      "size_bytes": 154394,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_mus_boss",
+      "name": "Dragon Boss Battle",
+      "category": "audio",
+      "path": "audio/music/boss_battle.wav",
+      "format": "wav",
+      "size_bytes": 154394,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_amb_wind",
+      "name": "Arctic Mountain Wind",
+      "category": "audio",
+      "path": "audio/ambient/mountain_wind.wav",
+      "format": "wav",
+      "size_bytes": 132344,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_cmb_sword",
+      "name": "Steel Sword Slash",
+      "category": "audio",
+      "path": "audio/combat/sword_slash.wav",
+      "format": "wav",
+      "size_bytes": 26504,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_cmb_shield",
+      "name": "Iron Shield Block",
+      "category": "audio",
+      "path": "audio/combat/shield_block.wav",
+      "format": "wav",
+      "size_bytes": 22094,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_stp_snow",
+      "name": "Footstep Snow Crunch",
+      "category": "audio",
+      "path": "audio/footsteps/step_snow.wav",
+      "format": "wav",
+      "size_bytes": 15478,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_stp_stone",
+      "name": "Footstep Stone Echo",
+      "category": "audio",
+      "path": "audio/footsteps/step_stone.wav",
+      "format": "wav",
+      "size_bytes": 13274,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_mag_frost",
+      "name": "Frost Spell Cast",
+      "category": "audio",
+      "path": "audio/magic/frost_cast.wav",
+      "format": "wav",
+      "size_bytes": 52964,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_crt_dragon",
+      "name": "Frost Dragon Roar",
+      "category": "audio",
+      "path": "audio/creatures/dragon_roar.wav",
+      "format": "wav",
+      "size_bytes": 79424,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "aud_ui_click",
+      "name": "Menu Button Click",
+      "category": "audio",
+      "path": "audio/interface/ui_click.wav",
+      "format": "wav",
+      "size_bytes": 8864,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_WebAudio_Synthesizer",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "fx_fire_001",
+      "name": "Fire Flame Particle",
+      "category": "effect",
+      "path": "effects/fire/fire_particle.png",
+      "format": "png",
+      "size_bytes": 4317,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "fx_magic_001",
+      "name": "Frost Nova Orb",
+      "category": "effect",
+      "path": "effects/magic/frost_orb.png",
+      "format": "png",
+      "size_bytes": 4291,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "fx_part_001",
+      "name": "Soft Dust Glow",
+      "category": "effect",
+      "path": "effects/particles/glow_spark.png",
+      "format": "png",
+      "size_bytes": 4311,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "fx_snow_001",
+      "name": "Snowflake Sprite",
+      "category": "effect",
+      "path": "effects/weather/snowflake.png",
+      "format": "png",
+      "size_bytes": 4334,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "ui_icon_sword",
+      "name": "Weapon Slot Icon",
+      "category": "ui",
+      "path": "ui/icons/icon_sword.png",
+      "format": "png",
+      "size_bytes": 4298,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "ui_icon_health",
+      "name": "Health Bar Emblem",
+      "category": "ui",
+      "path": "ui/icons/icon_health.png",
+      "format": "png",
+      "size_bytes": 4295,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "ui_inv_slot",
+      "name": "Inventory Frame Slot",
+      "category": "ui",
+      "path": "ui/inventory/slot_frame.png",
+      "format": "png",
+      "size_bytes": 4294,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "ui_menu_bg",
+      "name": "Nordic Crest Emblem",
+      "category": "ui",
+      "path": "ui/menus/frost_crest.png",
+      "format": "png",
+      "size_bytes": 4295,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_2D_Sprite_Generator",
+      "verified": true,
+      "procedural_placeholder": true
+    },
+    {
+      "id": "ui_font_001",
+      "name": "Nordic RPG Web Typography CSS",
+      "category": "ui",
+      "path": "ui/fonts/frost_typography.css",
+      "format": "css",
+      "size_bytes": 358,
+      "animations": [],
+      "license": "OFL-1.1 / CC0",
+      "source": "Google_Fonts_Cinzel_Lora",
+      "verified": true,
+      "procedural_placeholder": false
+    },
+    {
+      "id": "weap_sword_002",
+      "name": "Iron Broadsword",
+      "category": "weapon",
+      "path": "weapons/swords/iron_broadsword.glb",
+      "format": "glb",
+      "size_bytes": 2836,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 14,
+        "speed": 1.1,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "weap_sword_003",
+      "name": "Nordic Greatsword",
+      "category": "weapon",
+      "path": "weapons/swords/nordic_greatsword.glb",
+      "format": "glb",
+      "size_bytes": 2840,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 28,
+        "speed": 0.75,
+        "two_handed": true,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "weap_sword_004",
+      "name": "Elven Sabre",
+      "category": "weapon",
+      "path": "weapons/swords/elven_sabre.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 22,
+        "speed": 1.3,
+        "tier": "elven"
+      }
+    },
+    {
+      "id": "weap_sword_005",
+      "name": "Draugr Ancient Blade",
+      "category": "weapon",
+      "path": "weapons/swords/draugr_blade.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 18,
+        "speed": 1.0,
+        "tier": "ancient"
+      }
+    },
+    {
+      "id": "weap_sword_006",
+      "name": "Frostbite Runeblade",
+      "category": "weapon",
+      "path": "weapons/swords/frostbite_runeblade.glb",
+      "format": "glb",
+      "size_bytes": 2840,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 38,
+        "frost_damage": 15,
+        "tier": "legendary"
+      }
+    },
+    {
+      "id": "weap_sword_007",
+      "name": "Dragonbone Claymore",
+      "category": "weapon",
+      "path": "weapons/swords/dragonbone_claymore.glb",
+      "format": "glb",
+      "size_bytes": 2840,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 46,
+        "speed": 0.7,
+        "two_handed": true,
+        "tier": "dragon"
+      }
+    },
+    {
+      "id": "weap_axe_002",
+      "name": "Woodcutter Hatchet",
+      "category": "weapon",
+      "path": "weapons/axes/woodcutter_hatchet.glb",
+      "format": "glb",
+      "size_bytes": 2208,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 11,
+        "speed": 1.25,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "weap_axe_003",
+      "name": "Dwarven War Axe",
+      "category": "weapon",
+      "path": "weapons/axes/dwarven_war_axe.glb",
+      "format": "glb",
+      "size_bytes": 2204,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 24,
+        "speed": 1.0,
+        "tier": "dwarven"
+      }
+    },
+    {
+      "id": "weap_axe_004",
+      "name": "Executioner Greataxe",
+      "category": "weapon",
+      "path": "weapons/axes/executioner_greataxe.glb",
+      "format": "glb",
+      "size_bytes": 2208,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 36,
+        "speed": 0.68,
+        "two_handed": true,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "weap_axe_005",
+      "name": "Glacial Cleaver",
+      "category": "weapon",
+      "path": "weapons/axes/glacial_cleaver.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 34,
+        "frost_damage": 12,
+        "tier": "legendary"
+      }
+    },
+    {
+      "id": "weap_mace_001",
+      "name": "Iron Flanged Mace",
+      "category": "weapon",
+      "path": "weapons/maces/iron_mace.glb",
+      "format": "glb",
+      "size_bytes": 2180,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 16,
+        "armor_pierce": 0.2,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "weap_mace_002",
+      "name": "Steel Warhammer",
+      "category": "weapon",
+      "path": "weapons/maces/steel_warhammer.glb",
+      "format": "glb",
+      "size_bytes": 2200,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 34,
+        "armor_pierce": 0.35,
+        "two_handed": true,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "weap_mace_003",
+      "name": "Paladin Sunmace",
+      "category": "weapon",
+      "path": "weapons/maces/paladin_sunmace.glb",
+      "format": "glb",
+      "size_bytes": 2188,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 30,
+        "undead_bonus": 20,
+        "tier": "legendary"
+      }
+    },
+    {
+      "id": "weap_dag_001",
+      "name": "Iron Dirk",
+      "category": "weapon",
+      "path": "weapons/daggers/iron_dirk.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 8,
+        "crit_mult": 2.5,
+        "speed": 1.6,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "weap_dag_002",
+      "name": "Assassin Stiletto",
+      "category": "weapon",
+      "path": "weapons/daggers/assassin_stiletto.glb",
+      "format": "glb",
+      "size_bytes": 2840,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 16,
+        "crit_mult": 3.5,
+        "speed": 1.75,
+        "tier": "ebony"
+      }
+    },
+    {
+      "id": "weap_dag_003",
+      "name": "Venomfang Kris",
+      "category": "weapon",
+      "path": "weapons/daggers/venomfang_kris.glb",
+      "format": "glb",
+      "size_bytes": 2836,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 19,
+        "poison_dps": 6,
+        "tier": "legendary"
+      }
+    },
+    {
+      "id": "weap_bow_002",
+      "name": "Nordic Recurve Bow",
+      "category": "weapon",
+      "path": "weapons/bows/nordic_recurve_bow.glb",
+      "format": "glb",
+      "size_bytes": 2856,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 20,
+        "range": 45,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "weap_bow_003",
+      "name": "Elven Longbow",
+      "category": "weapon",
+      "path": "weapons/bows/elven_longbow.glb",
+      "format": "glb",
+      "size_bytes": 2848,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 28,
+        "range": 60,
+        "tier": "elven"
+      }
+    },
+    {
+      "id": "weap_bow_004",
+      "name": "Shadowglass Crossbow",
+      "category": "weapon",
+      "path": "weapons/bows/shadow_crossbow.glb",
+      "format": "glb",
+      "size_bytes": 2864,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "damage": 35,
+        "armor_pierce": 0.3,
+        "tier": "ebony"
+      }
+    },
+    {
+      "id": "weap_staff_002",
+      "name": "Staff of Fireballs",
+      "category": "weapon",
+      "path": "weapons/staffs/fire_staff.glb",
+      "format": "glb",
+      "size_bytes": 2180,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "spell": "fireball",
+        "mana_cost": 25,
+        "damage": 35
+      }
+    },
+    {
+      "id": "weap_staff_003",
+      "name": "Staff of Chain Lightning",
+      "category": "weapon",
+      "path": "weapons/staffs/lightning_staff.glb",
+      "format": "glb",
+      "size_bytes": 2188,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "spell": "lightning",
+        "mana_cost": 30,
+        "damage": 32
+      }
+    },
+    {
+      "id": "weap_staff_004",
+      "name": "Necromancer Skull Staff",
+      "category": "weapon",
+      "path": "weapons/staffs/necromancer_staff.glb",
+      "format": "glb",
+      "size_bytes": 2188,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "spell": "raise_undead",
+        "mana_cost": 45
+      }
+    },
+    {
+      "id": "weap_shield_002",
+      "name": "Wooden Buckler",
+      "category": "weapon",
+      "path": "weapons/shields/wooden_buckler.glb",
+      "format": "glb",
+      "size_bytes": 2188,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor": 12,
+        "parry_window": 0.35
+      }
+    },
+    {
+      "id": "weap_shield_003",
+      "name": "Steel Kite Shield",
+      "category": "weapon",
+      "path": "weapons/shields/steel_kite_shield.glb",
+      "format": "glb",
+      "size_bytes": 2192,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor": 26,
+        "block_reduction": 0.75
+      }
+    },
+    {
+      "id": "weap_shield_004",
+      "name": "Tower Fortress Shield",
+      "category": "weapon",
+      "path": "weapons/shields/tower_shield.glb",
+      "format": "glb",
+      "size_bytes": 2188,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor": 38,
+        "block_reduction": 0.88
+      }
+    },
+    {
+      "id": "weap_shield_005",
+      "name": "Aegis of the Frost King",
+      "category": "weapon",
+      "path": "weapons/shields/frost_aegis.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor": 45,
+        "frost_resist": 0.5
+      }
+    },
+    {
+      "id": "armor_leather_helm",
+      "name": "Hunter Leather Helmet",
+      "category": "armor",
+      "path": "armor/helmets/leather_helm.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 10,
+        "tier": "leather"
+      }
+    },
+    {
+      "id": "armor_leather_chest",
+      "name": "Hunter Leather Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/leather_chest.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 24,
+        "tier": "leather"
+      }
+    },
+    {
+      "id": "armor_leather_gloves",
+      "name": "Hunter Leather Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/leather_gloves.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 8,
+        "tier": "leather"
+      }
+    },
+    {
+      "id": "armor_leather_boots",
+      "name": "Hunter Leather Greaves",
+      "category": "armor",
+      "path": "armor/boots/leather_boots.glb",
+      "format": "glb",
+      "size_bytes": 2212,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 9,
+        "tier": "leather"
+      }
+    },
+    {
+      "id": "armor_iron_helm",
+      "name": "Forged Iron Helmet",
+      "category": "armor",
+      "path": "armor/helmets/iron_helm.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 15,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "armor_iron_chest",
+      "name": "Forged Iron Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/iron_chest.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 36,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "armor_iron_gloves",
+      "name": "Forged Iron Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/iron_gloves.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 12,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "armor_iron_boots",
+      "name": "Forged Iron Greaves",
+      "category": "armor",
+      "path": "armor/boots/iron_boots.glb",
+      "format": "glb",
+      "size_bytes": 2212,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 13,
+        "tier": "iron"
+      }
+    },
+    {
+      "id": "armor_steel_helm",
+      "name": "Nordic Steel Helmet",
+      "category": "armor",
+      "path": "armor/helmets/steel_helm.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 22,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "armor_steel_chest",
+      "name": "Nordic Steel Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/steel_chest.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 52,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "armor_steel_gloves",
+      "name": "Nordic Steel Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/steel_gloves.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 17,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "armor_steel_boots",
+      "name": "Nordic Steel Greaves",
+      "category": "armor",
+      "path": "armor/boots/steel_boots.glb",
+      "format": "glb",
+      "size_bytes": 2212,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 19,
+        "tier": "steel"
+      }
+    },
+    {
+      "id": "armor_mage_helm",
+      "name": "Archmage Frostweave Helmet",
+      "category": "armor",
+      "path": "armor/helmets/mage_helm.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 8,
+        "tier": "mage"
+      }
+    },
+    {
+      "id": "armor_mage_chest",
+      "name": "Archmage Frostweave Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/mage_chest.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 19,
+        "tier": "mage"
+      }
+    },
+    {
+      "id": "armor_mage_gloves",
+      "name": "Archmage Frostweave Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/mage_gloves.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 6,
+        "tier": "mage"
+      }
+    },
+    {
+      "id": "armor_mage_boots",
+      "name": "Archmage Frostweave Greaves",
+      "category": "armor",
+      "path": "armor/boots/mage_boots.glb",
+      "format": "glb",
+      "size_bytes": 2212,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 7,
+        "tier": "mage"
+      }
+    },
+    {
+      "id": "armor_ebony_helm",
+      "name": "Ebony Plate Helmet",
+      "category": "armor",
+      "path": "armor/helmets/ebony_helm.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 32,
+        "tier": "ebony"
+      }
+    },
+    {
+      "id": "armor_ebony_chest",
+      "name": "Ebony Plate Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/ebony_chest.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 76,
+        "tier": "ebony"
+      }
+    },
+    {
+      "id": "armor_ebony_gloves",
+      "name": "Ebony Plate Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/ebony_gloves.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 25,
+        "tier": "ebony"
+      }
+    },
+    {
+      "id": "armor_ebony_boots",
+      "name": "Ebony Plate Greaves",
+      "category": "armor",
+      "path": "armor/boots/ebony_boots.glb",
+      "format": "glb",
+      "size_bytes": 2212,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 28,
+        "tier": "ebony"
+      }
+    },
+    {
+      "id": "armor_dragon_helm",
+      "name": "Dragonscale Royal Helmet",
+      "category": "armor",
+      "path": "armor/helmets/dragon_helm.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 40,
+        "tier": "dragon"
+      }
+    },
+    {
+      "id": "armor_dragon_chest",
+      "name": "Dragonscale Royal Cuirass",
+      "category": "armor",
+      "path": "armor/chestplates/dragon_chest.glb",
+      "format": "glb",
+      "size_bytes": 2832,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 96,
+        "tier": "dragon"
+      }
+    },
+    {
+      "id": "armor_dragon_gloves",
+      "name": "Dragonscale Royal Gauntlets",
+      "category": "armor",
+      "path": "armor/gloves/dragon_gloves.glb",
+      "format": "glb",
+      "size_bytes": 2184,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 32,
+        "tier": "dragon"
+      }
+    },
+    {
+      "id": "armor_dragon_boots",
+      "name": "Dragonscale Royal Greaves",
+      "category": "armor",
+      "path": "armor/boots/dragon_boots.glb",
+      "format": "glb",
+      "size_bytes": 2212,
+      "animations": [],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "armor_rating": 36,
+        "tier": "dragon"
+      }
+    },
+    {
+      "id": "npc_jarl_001",
+      "name": "Jarl of Frosthold",
+      "category": "npc",
+      "path": "characters/npcs/jarl_frosthold.glb",
+      "format": "glb",
+      "size_bytes": 4832,
+      "animations": [
+        "idle",
+        "sit_throne",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "quest_giver",
+        "faction": "crown"
+      }
+    },
+    {
+      "id": "npc_innkeeper_001",
+      "name": "Tavern Innkeeper",
+      "category": "npc",
+      "path": "characters/npcs/innkeeper.glb",
+      "format": "glb",
+      "size_bytes": 4824,
+      "animations": [
+        "idle",
+        "wipe_bar",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "vendor_food",
+        "faction": "civilians"
+      }
+    },
+    {
+      "id": "npc_alchemist_001",
+      "name": "Herbalist Alchemist",
+      "category": "npc",
+      "path": "characters/npcs/alchemist.glb",
+      "format": "glb",
+      "size_bytes": 4788,
+      "animations": [
+        "idle",
+        "brew",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "vendor_potions",
+        "faction": "mages"
+      }
+    },
+    {
+      "id": "npc_captain_001",
+      "name": "Guard Captain",
+      "category": "npc",
+      "path": "characters/npcs/guard_captain.glb",
+      "format": "glb",
+      "size_bytes": 4832,
+      "animations": [
+        "idle",
+        "patrol",
+        "combat_sword"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "trainer_combat",
+        "faction": "guard"
+      }
+    },
+    {
+      "id": "npc_archer_guard_001",
+      "name": "Watchtower Archer",
+      "category": "npc",
+      "path": "characters/npcs/archer_guard.glb",
+      "format": "glb",
+      "size_bytes": 4784,
+      "animations": [
+        "idle",
+        "aim_bow",
+        "shoot"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "guard_ranged",
+        "faction": "guard"
+      }
+    },
+    {
+      "id": "npc_farmer_m_001",
+      "name": "Village Farmer",
+      "category": "npc",
+      "path": "characters/npcs/farmer_male.glb",
+      "format": "glb",
+      "size_bytes": 4780,
+      "animations": [
+        "idle",
+        "walk",
+        "work_field"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "civilian",
+        "faction": "civilians"
+      }
+    },
+    {
+      "id": "npc_farmer_f_001",
+      "name": "Village Peasant Woman",
+      "category": "npc",
+      "path": "characters/npcs/farmer_female.glb",
+      "format": "glb",
+      "size_bytes": 4860,
+      "animations": [
+        "idle",
+        "walk",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "civilian",
+        "faction": "civilians"
+      }
+    },
+    {
+      "id": "npc_priest_001",
+      "name": "High Priest of Light",
+      "category": "npc",
+      "path": "characters/npcs/high_priest.glb",
+      "format": "glb",
+      "size_bytes": 4784,
+      "animations": [
+        "idle",
+        "pray",
+        "heal_cast"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "healer",
+        "faction": "temple"
+      }
+    },
+    {
+      "id": "npc_bard_001",
+      "name": "Tavern Lute Bard",
+      "category": "npc",
+      "path": "characters/npcs/bard.glb",
+      "format": "glb",
+      "size_bytes": 4796,
+      "animations": [
+        "idle",
+        "play_lute",
+        "sing"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "entertainer",
+        "faction": "civilians"
+      }
+    },
+    {
+      "id": "npc_ranger_001",
+      "name": "Northern Woodsman Ranger",
+      "category": "npc",
+      "path": "characters/npcs/ranger.glb",
+      "format": "glb",
+      "size_bytes": 4784,
+      "animations": [
+        "idle",
+        "sneak",
+        "bow_attack"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "companion",
+        "faction": "rangers"
+      }
+    },
+    {
+      "id": "npc_miner_001",
+      "name": "Ironmine Prospector",
+      "category": "npc",
+      "path": "characters/npcs/miner.glb",
+      "format": "glb",
+      "size_bytes": 4848,
+      "animations": [
+        "idle",
+        "mine_pickaxe",
+        "walk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "vendor_ore",
+        "faction": "miners"
+      }
+    },
+    {
+      "id": "npc_stablemaster_001",
+      "name": "Frosthold Stablemaster",
+      "category": "npc",
+      "path": "characters/npcs/stablemaster.glb",
+      "format": "glb",
+      "size_bytes": 4788,
+      "animations": [
+        "idle",
+        "walk",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "mount_vendor",
+        "faction": "civilians"
+      }
+    },
+    {
+      "id": "npc_thief_001",
+      "name": "Guild Shadow Broker",
+      "category": "npc",
+      "path": "characters/npcs/shadow_broker.glb",
+      "format": "glb",
+      "size_bytes": 4844,
+      "animations": [
+        "idle",
+        "lean",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "fence",
+        "faction": "thieves_guild"
+      }
+    },
+    {
+      "id": "npc_archmage_001",
+      "name": "Winterspire Archmage",
+      "category": "npc",
+      "path": "characters/npcs/archmage.glb",
+      "format": "glb",
+      "size_bytes": 4788,
+      "animations": [
+        "idle",
+        "cast_frost",
+        "levitate"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "trainer_magic",
+        "faction": "mages"
+      }
+    },
+    {
+      "id": "npc_elf_envoy_001",
+      "name": "Wood Elf Envoy",
+      "category": "npc",
+      "path": "characters/npcs/elf_envoy.glb",
+      "format": "glb",
+      "size_bytes": 4800,
+      "animations": [
+        "idle",
+        "walk",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "quest_giver",
+        "faction": "elves"
+      }
+    },
+    {
+      "id": "npc_dwarf_smith_001",
+      "name": "Dwarven Master Runesmith",
+      "category": "npc",
+      "path": "characters/npcs/dwarf_runesmith.glb",
+      "format": "glb",
+      "size_bytes": 4820,
+      "animations": [
+        "idle",
+        "forge",
+        "talk"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "role": "enchanter",
+        "faction": "dwarves"
+      }
+    },
+    {
+      "id": "enemy_bandit_001",
+      "name": "Frostpeak Bandit Marauder",
+      "category": "enemy",
+      "path": "characters/enemies/bandit_marauder.glb",
+      "format": "glb",
+      "size_bytes": 4792,
+      "animations": [
+        "idle",
+        "run",
+        "attack",
+        "block",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 95,
+        "dmg": 14,
+        "xp": 35
+      }
+    },
+    {
+      "id": "enemy_bandit_archer_001",
+      "name": "Bandit Poacher",
+      "category": "enemy",
+      "path": "characters/enemies/bandit_archer.glb",
+      "format": "glb",
+      "size_bytes": 4804,
+      "animations": [
+        "idle",
+        "run",
+        "bow_attack",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 75,
+        "dmg": 16,
+        "xp": 30
+      }
+    },
+    {
+      "id": "enemy_necromancer_001",
+      "name": "Crypt Necromancer",
+      "category": "enemy",
+      "path": "characters/enemies/necromancer.glb",
+      "format": "glb",
+      "size_bytes": 4812,
+      "animations": [
+        "idle",
+        "cast_dark",
+        "summon",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 110,
+        "dmg": 24,
+        "xp": 65
+      }
+    },
+    {
+      "id": "enemy_cultist_001",
+      "name": "Dragon Cult Zealot",
+      "category": "enemy",
+      "path": "characters/enemies/dragon_cultist.glb",
+      "format": "glb",
+      "size_bytes": 4788,
+      "animations": [
+        "idle",
+        "run",
+        "fire_cast",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 120,
+        "dmg": 26,
+        "xp": 70
+      }
+    },
+    {
+      "id": "enemy_orc_berserker_001",
+      "name": "Orc Berserker",
+      "category": "enemy",
+      "path": "characters/enemies/orc_berserker.glb",
+      "format": "glb",
+      "size_bytes": 4828,
+      "animations": [
+        "idle",
+        "charge",
+        "heavy_attack",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 185,
+        "dmg": 30,
+        "xp": 90
+      }
+    },
+    {
+      "id": "enemy_goblin_shaman_001",
+      "name": "Goblin Hex Shaman",
+      "category": "enemy",
+      "path": "characters/enemies/goblin_shaman.glb",
+      "format": "glb",
+      "size_bytes": 4820,
+      "animations": [
+        "idle",
+        "cast",
+        "flee",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 65,
+        "dmg": 18,
+        "xp": 40
+      }
+    },
+    {
+      "id": "creat_draugr_lord_001",
+      "name": "Draugr Deathlord",
+      "category": "creature",
+      "path": "creatures/undead/draugr_deathlord.glb",
+      "format": "glb",
+      "size_bytes": 4824,
+      "animations": [
+        "idle",
+        "walk",
+        "frost_shout",
+        "cleave",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 260,
+        "dmg": 34,
+        "xp": 140
+      }
+    },
+    {
+      "id": "creat_wraith_001",
+      "name": "Ice Wraith Specter",
+      "category": "creature",
+      "path": "creatures/undead/ice_wraith.glb",
+      "format": "glb",
+      "size_bytes": 1544,
+      "animations": [
+        "idle",
+        "float",
+        "chill_touch",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 130,
+        "dmg": 22,
+        "xp": 75
+      }
+    },
+    {
+      "id": "creat_ghoul_001",
+      "name": "Crypt Ghoul",
+      "category": "creature",
+      "path": "creatures/undead/crypt_ghoul.glb",
+      "format": "glb",
+      "size_bytes": 4820,
+      "animations": [
+        "idle",
+        "run",
+        "claw",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 90,
+        "dmg": 17,
+        "xp": 40
+      }
+    },
+    {
+      "id": "creat_vampire_001",
+      "name": "Crimson Vampire Nightblade",
+      "category": "creature",
+      "path": "creatures/undead/vampire_nightblade.glb",
+      "format": "glb",
+      "size_bytes": 4824,
+      "animations": [
+        "idle",
+        "dash",
+        "drain_life",
+        "slash",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 220,
+        "dmg": 32,
+        "xp": 130
+      }
+    },
+    {
+      "id": "creat_bear_001",
+      "name": "Snow Cave Bear",
+      "category": "creature",
+      "path": "creatures/beasts/snow_bear.glb",
+      "format": "glb",
+      "size_bytes": 4796,
+      "animations": [
+        "idle",
+        "run",
+        "maul",
+        "roar",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 240,
+        "dmg": 28,
+        "xp": 110
+      }
+    },
+    {
+      "id": "creat_sabrecat_001",
+      "name": "Snow Sabre Cat",
+      "category": "creature",
+      "path": "creatures/beasts/snow_sabrecat.glb",
+      "format": "glb",
+      "size_bytes": 4816,
+      "animations": [
+        "idle",
+        "sprint",
+        "pounce",
+        "bite",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 160,
+        "dmg": 26,
+        "xp": 85
+      }
+    },
+    {
+      "id": "creat_mammoth_001",
+      "name": "Tundra Woolly Mammoth",
+      "category": "creature",
+      "path": "creatures/beasts/woolly_mammoth.glb",
+      "format": "glb",
+      "size_bytes": 4816,
+      "animations": [
+        "idle",
+        "walk",
+        "tusk_slam",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 650,
+        "dmg": 52,
+        "xp": 280
+      }
+    },
+    {
+      "id": "creat_golem_001",
+      "name": "Frost Atronach Golem",
+      "category": "creature",
+      "path": "creatures/monsters/frost_atronach.glb",
+      "format": "glb",
+      "size_bytes": 4792,
+      "animations": [
+        "idle",
+        "walk",
+        "ice_slam",
+        "shatter_death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 340,
+        "dmg": 40,
+        "xp": 180
+      }
+    },
+    {
+      "id": "creat_gargoyle_001",
+      "name": "Ancient Stone Gargoyle",
+      "category": "creature",
+      "path": "creatures/monsters/stone_gargoyle.glb",
+      "format": "glb",
+      "size_bytes": 4828,
+      "animations": [
+        "idle",
+        "fly",
+        "claw_dive",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 280,
+        "dmg": 35,
+        "xp": 150
+      }
+    },
+    {
+      "id": "creat_werewolf_001",
+      "name": "Moonfang Werewolf",
+      "category": "creature",
+      "path": "creatures/monsters/werewolf.glb",
+      "format": "glb",
+      "size_bytes": 4800,
+      "animations": [
+        "idle",
+        "sprint",
+        "howl",
+        "frenzy_claw",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 290,
+        "dmg": 38,
+        "xp": 160
+      }
+    },
+    {
+      "id": "creat_wyvern_001",
+      "name": "Mountain Ice Wyvern",
+      "category": "creature",
+      "path": "creatures/monsters/ice_wyvern.glb",
+      "format": "glb",
+      "size_bytes": 2176,
+      "animations": [
+        "idle",
+        "fly",
+        "ice_spit",
+        "tail_whip",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 420,
+        "dmg": 44,
+        "xp": 240
+      }
+    },
+    {
+      "id": "boss_dragon_elder_001",
+      "name": "Alduin-Style Ancient Shadow Dragon",
+      "category": "boss",
+      "path": "characters/dragons/ancient_shadow_dragon.glb",
+      "format": "glb",
+      "size_bytes": 2840,
+      "animations": [
+        "idle",
+        "fly",
+        "breathe_fire",
+        "meteor_roar",
+        "bite",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 1800,
+        "dmg": 75,
+        "xp": 1200,
+        "boss": true
+      }
+    },
+    {
+      "id": "boss_dragon_gold_001",
+      "name": "Aurelius the Sunfire Dragon",
+      "category": "boss",
+      "path": "characters/dragons/sunfire_dragon.glb",
+      "format": "glb",
+      "size_bytes": 2860,
+      "animations": [
+        "idle",
+        "fly",
+        "breathe_fire",
+        "wing_gust",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 1500,
+        "dmg": 68,
+        "xp": 1000,
+        "boss": true
+      }
+    },
+    {
+      "id": "boss_hydra_001",
+      "name": "Swamp Hydra Leviathan",
+      "category": "boss",
+      "path": "characters/bosses/swamp_hydra.glb",
+      "format": "glb",
+      "size_bytes": 3476,
+      "animations": [
+        "idle",
+        "triple_bite",
+        "acid_spray",
+        "death"
+      ],
+      "license": "CC0-1.0",
+      "source": "Procedural_ThreeJS_Compound_Geometry",
+      "verified": true,
+      "procedural_placeholder": true,
+      "game_stats": {
+        "hp": 1350,
+        "dmg": 62,
+        "xp": 900,
+        "boss": true
+      }
+    }
+  ]
+}
