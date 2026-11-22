@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Legends of the Frost Kingdom</title>
+<link rel="stylesheet" href="./styles/style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="loading"><h1>Legends of the Frost Kingdom</h1><div class="bar"><i id="loadbar"></i></div><p id="loadtext">Caricamento…</p></div>
+<div id="hud" hidden>
+  <div id="region"></div>
+  <div id="debug"></div>
+  <div id="hurt"></div><div id="fx"></div><div id="reticle"></div>
+  <div id="weaponline"></div><div id="lootline"></div>
+  <div id="bars"><div class="b hp"><i id="hp"></i></div><div class="b mp"><i id="mp"></i></div><div class="b st"><i id="st"></i></div></div>
+  <div id="deathmsg">Sei caduto<small>Premi R per rialzarti</small></div>
+  <div id="hint">Clic = cattura mouse · WASD muovi · Shift corri · Spazio salta · Clic sx attacco (combo ×3) · Clic dx para · Q schiva · F attacco pesante · H pozione · 1-8 cambia arma · R rialzati · Esc rilascia</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
